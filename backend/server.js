@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const authRoutes = require("./routes/authRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 
 const app = express();
