@@ -1,7 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-const authRoutes = require("./routes/authRoutes");
-const chatRoutes = require("./routes/chatRoutes");
+const authRoutes = require("./routes/authRoutes"); // Ensure this path is correct
+const chatRoutes = require("./routes/chatRoutes"); // Ensure this path is correct
+const firebaseConfig = require("./firebaseConfig");
 
 const app = express();
 app.use(cors());
