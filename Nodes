@@ -1,0 +1,31 @@
+
+Install Frontend Dependencies:
+npm install axios react-router-dom firebase tailwindcss
+__________________________________________________________
+
+Install Backend Dependenies:
+npm install express cors dotenv firebase-admin axios bcryptjs jsonwebtoken
+___________________________________________________________
+
+Create Backend's package.json file:
+cd backend
+npm init -y
+___________________________________________________________
+
+Uptade Code:
+git pull origin main
+___________________________________________________________
+
+Start The Backend:
+cd backend
+node server.js
+___________________________________________________________
+
+Start The Frontend:
+cd frontend
+npm run dev
+
+> open your browser and go to http://localhost:5173
+___________________________________________________________
+
+
