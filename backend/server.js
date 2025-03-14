@@ -15,8 +15,8 @@ app.use(express.json());
 // MySQL Database Connection
 const db = mysql.createConnection({
   host: "localhost", // Change if using a remote database
-  user: "your_mysql_user", // Replace with your MySQL username
-  password: "your_mysql_password", // Replace with your MySQL password
+  user: "root", // Replace with your MySQL username
+  password: "123Gm456!", // Replace with your MySQL password
   database: "chatbot_db", // Ensure this database exists
 });
 
